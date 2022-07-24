@@ -1,7 +1,7 @@
 const GETGREETING_BEGIN = 'GETGREETINGBEGIN';
 const GETGREETING_SUCCESS = 'GETGREETINGSUCCESS';
 const GETGREETING_FAILURE = 'GETGREETINGFAILURE';
-const BASE_URL = 'http://127.0.0.1:3100/show.json';
+const BASE_URL = 'http://127.0.0.1:3100/show';
 
 const INITIAL_STATE = {
   greeting: '',
